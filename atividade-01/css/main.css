@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+:root{
+  --main-yellow: #F5BD26;
+  --second-yellow: #F9F1DC;
+  --orange: #f07909;
+  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'EB-Garamond', serif;
+  font-size: 1em;
+  background-color: var(--second-yellow);
+  margin-block: 2em;
+}
+
+a{
+  text-decoration: none;
+  color: var(--orange);
+}
+a:hover{
+  transform: scale(1.2);
+  color: var(--main-yellow);
+}
+
+main{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.destaque img{
+  border-block: 5px solid var(--main-yellow);
+  border-inline: 2px solid var(--main-yellow);
+}
+
+.index-cardapio{
+  display: flex;
+  flex-wrap: wrap;
+  width: 35%;
+  margin: 2em auto;
+}
+
+.index-cardapio li{
+  list-style-type: none;
+  margin: 1em;
+}
+
+section{
+  width: 100%;
+}
+
+section h2{
+  font-size: 3em;
+  width: auto;
+  text-align: center;
+  border-bottom: 3px solid var(--main-yellow);
+}
+
+section p{
+  text-align: center;
+  margin-block: 2em;
+  display: flex;
+  width: 30%;
+  margin-inline: auto;
+}
+
+footer{
+  width: 100%;
+  height: 5em;
+  background-color: white;
+  padding: 2em;
+}
+
+footer address{
+  text-align: center;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+nav {
+  width: 1300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav h1{
+  margin-right: auto;
+  margin-left: 2em;
+}
+
+nav ol{
+  display: flex;
+  margin-right: 2em;
+  margin-left: auto;
+  gap: 2em;
+  font-weight: bold;
+  list-style: none;
+  font-size: 2em;
+}
+
+article{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+
+article h2{
+  font-size: 3em;
+  text-align: center;
+  border-bottom: 3px solid var(--main-yellow);
+  width: 100%;
+}
+
+.cardapio{
+  margin-block: 2em;
+  margin-inline: auto;
+  display: inline-block;
+  gap: 1.5em;
+  list-style-type: none;
+  width: 50%;
+}
+
+.cardapio li{
+  display: flex;
+  gap: 2em;
+}
+
+.contatos{
+  background-color: white;
+  padding: 2em 3em;
+  border-radius: 25px;
+  list-style: none;
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  flex-direction: column;
+  gap: 2em;
+  margin-block: 2em;
+}
+.contatos li{
+  gap: 1em;
+  /* text-align: center; */
+  font-size: 1.3em;
+}
+
+.chef-description{
+  text-align: center;
+  font-size: 1.2em;
+  width: 45%;
+  margin: 2em auto;
+}
+
+.chef-figure img{
+  border-radius: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-block: 5px solid var(--main-yellow);
+  border-inline: 2px solid var(--main-yellow);
+  margin: 2em 0 1em 0;
+}
+.chef-figure figcaption{
+  text-align: center;
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight: bold;
+}
