@@ -1,0 +1,46 @@
+
+.produto {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 5em;
+}
+
+.produto .title {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 2em;
+}
+
+.produto .title h2 {
+  font-size: 4em;
+}
+
+.produto .title p {
+  font-size: 8em;
+  font-weight: 700;
+}
+
+.produto .title p spam{
+  font-size: 0.5em;
+}
+
+.produto img {
+  width: 38em;
+}
+
+.descricao{
+  padding: 2.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.descricao h3{
+  font-size: 2em;
+  text-transform: uppercase;
+}
+.descricao p{
+  font-size: 1.2em;
+}

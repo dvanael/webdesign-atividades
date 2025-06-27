@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+  --main-purple: #9B27BB;
+  --second-purple: #c74ee6;
+  --pink: #F780EF;
+  --light-pink: #FFF2E9;
+  --border-nav: 3px solid black;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0 auto;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--light-pink);
+  display: flex;
+  flex-direction: column;
+}
+
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover{
+  color: var(--second-purple) !important;
+  transform: scale(1.1);
+
+}
+
+main{
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header{
+  border-bottom: var(--border-nav);
+}
+
+nav{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1{
+  font-size: 3em;
+  font-family: 'Cherry Bomb One', cursive;
+  font-weight: 400;
+  color: var(--main-purple);
+}
+
+.nav-links{
+  display: flex;
+  gap: 2em;
+  font-weight: 600;
+  list-style: none;
+  font-size: 1.5em;
+}
+
+.nav-links li a {
+  color: black;
+}
+
+.destaque{
+  padding: 1.5em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 4em;
+}
+.destaque h2{
+  font-family: 'Cherry Bomb One', cursive;
+  font-weight: 400;
+  font-size: 4em;
+  text-align: start;
+  width: 50%;
+}
+
+.produtos{
+  padding: 1.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5em;
+}
+
+.produtos h2{
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.produtos ol{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5em;
+  list-style: none;
+}
+
+img:hover{
+  transform: scale(1.001);
+}
+
+.btn{
+  padding: 0.7em 2.5em;
+  border-radius: 1.5em;
+  background-color: var(--pink);
+  color: black;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.btn:hover{
+  color: white !important;
+}
+
+footer {
+  border-top: var(--border-nav);
+  padding: 1.5em;
+  text-align: center;
+}
