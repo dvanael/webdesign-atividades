@@ -54,10 +54,3 @@ main div h2{
     text-transform: uppercase;
     color: #005C85;
 }
-
-
-figure img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
