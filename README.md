@@ -7,3 +7,5 @@
 - Atividade 03 - [Prática de `display flex`](https://dvanael.github.io/webdesign-atividades/atividade-03/index.html)  ([codigo](https://github.com/dvanael/webdesign-atividades/tree/main/atividade-03))
 
 - Atividade 04 - [Site DIATINF](https://dvanael.github.io/webdesign-atividades/atividade-04/index.html)  ([codigo](https://github.com/dvanael/webdesign-atividades/tree/main/atividade-04))
+
+- Atividade 05 - [Prática de `display grid`](https://dvanael.github.io/webdesign-atividades/atividade-04/index.html)  ([codigo](https://github.com/dvanael/webdesign-atividades/tree/main/atividade-04))
