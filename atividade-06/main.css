@@ -1,0 +1,41 @@
+
+nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 1em;
+  list-style: none;
+  font-size: 1.5em;
+}
+/* Define relative e hover do item da nav */
+nav ul li{
+  position: relative;
+  &:hover .drop{
+    display: flex;
+  }
+}
+/* Estiliza links da nav e drop */
+nav ul li, .drop a{
+  padding: 1em;
+  background-color: lightblue;
+  cursor: pointer;
+  &:hover{
+    transform: scale(1.1);
+  }
+}
+nav ul li a{
+  color: black;
+}
+/* Define configs do drop */
+.drop{
+  display: none;
+  position: absolute;
+  flex-direction: column;
+  gap: 0.5em;
+  padding: 2em;
+  width: 300px;
+}
+.drop a{
+  width: fit-content;
+  background-color: lightblue;
+}
