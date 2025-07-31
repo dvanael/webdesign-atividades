@@ -8,4 +8,6 @@
 
 - Atividade 04 - [Site DIATINF](https://dvanael.github.io/webdesign-atividades/atividade-04/index.html)  ([codigo](https://github.com/dvanael/webdesign-atividades/tree/main/atividade-04))
 
-- Atividade 05 - [Prática de `display grid`](https://dvanael.github.io/webdesign-atividades/atividade-04/index.html)  ([codigo](https://github.com/dvanael/webdesign-atividades/tree/main/atividade-04))
+- Atividade 05 - [Prática de `display grid`](https://dvanael.github.io/webdesign-atividades/atividade-05/index.html)  ([codigo](https://github.com/dvanael/webdesign-atividades/tree/main/atividade-05))
+
+- Atividade 06 - [Prática de Menu e Submenu](https://dvanael.github.io/webdesign-atividades/atividade-06/index.html)  ([codigo](https://github.com/dvanael/webdesign-atividades/tree/main/atividade-06))
