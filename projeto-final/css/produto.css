@@ -1,0 +1,57 @@
+/* Produto CSS */
+@import url(main.css);
+
+.produto {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 4em;
+  margin: 2.5em 0;
+}
+
+.produto .preco {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+  border: var(--border);
+  border-radius: var(--border-radius);
+}
+
+.produto .preco h2 {
+  font-size: 3.5em;
+}
+
+.produto .preco p {
+  font-size: 7.5em;
+  font-weight: 700;
+}
+
+.produto .preco p spam{
+  font-size: 0.5em;
+}
+
+.produto figure {
+  height: 100%;
+  & img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.descricao{
+  max-width: 1000px;
+  padding: 1.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.descricao h3{
+  font-size: 2.5em;
+  text-transform: uppercase;
+}
+.descricao p{
+  font-size: 1.2em;
+}
