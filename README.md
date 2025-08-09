@@ -11,3 +11,9 @@
 - Atividade 05 - [Prática de `display grid`](https://dvanael.github.io/webdesign-atividades/atividade-05/index.html)  ([codigo](https://github.com/dvanael/webdesign-atividades/tree/main/atividade-05))
 
 - Atividade 06 - [Prática de Menu e Submenu](https://dvanael.github.io/webdesign-atividades/atividade-06/index.html)  ([codigo](https://github.com/dvanael/webdesign-atividades/tree/main/atividade-06))
+
+## Projeto Final
+
+Atividade final de WebDesign, com a finalidade de desenvolver um site com o tema livre, uma continuçãa direta da [Atividade 02](https://dvanael.github.io/webdesign-atividades/atividade-02/index.html)
+
+Acesse [aqui](https://dvanael.github.io/webdesign-atividades/projeto-final/index.html) o projeto final. Veja também o [código fonte](https://github.com/dvanael/webdesign-atividades/tree/main/projeto-final).
